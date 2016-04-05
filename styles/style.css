@@ -1,0 +1,77 @@
+/* color pallette:
+#a5ff7f green like it
+#7fc9ff blue
+#E0D6C3 tan
+#8fa6a3 grey
+#ffed2b yellow
+*/
+body {
+	background: #f0f0f2;
+}
+
+nav
+{
+	width: 100%;
+	height: 3em;
+	text-align: center;
+	background: #8fa6a3;
+}
+
+nav a {
+	display: inline-block;
+	padding-top: 1em;
+	color: black;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 1.125em;
+}
+
+section{
+	width: 100%;
+}
+
+article{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 75px;
+	border-radius: 10px;
+	background: #fff;
+	padding: 5px;
+	box-shadow: 3px 3px 13px #8fa6a3, -3px -3px 13px #8fa6a3, 3px -3px 13px #8fa6a3, -3px 3px 13px #8fa6a3 ;
+}
+
+article p,li {
+	font-family: 'Fira Sans', arial, sans-serif;
+  font-color: #8fa6a3;
+	line-height: 1.5em;
+	margin: 1em 2em 2em 2em;
+}
+
+article ul {
+	margin-left: 4em;
+	margin-right: 6em;
+}
+
+a
+{
+	font-family: 'Fira sans', arial, sans-serif;
+	text-decoration: none;
+}
+
+footer
+{
+	position: fixed;
+	background: #ddd;
+	bottom: 0;
+	height: 3em;
+	width: 100%;
+	border-top: 2px #333 solid;
+	text-align: right;
+}
+
+footer p {
+	margin-top: 1em;
+	margin-right: 3em;
+}

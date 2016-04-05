@@ -1,0 +1,24 @@
+div {
+  width: 500px;
+  height: 200px;
+  border-radius: 30px;
+  border: 2px black solid;
+  background: green;
+}
+p {
+  padding: auto;
+}
+body {
+  background: white;
+}
+section {
+  float: left;
+  width: 70%;
+}
+aside {
+  float: right;
+  width: 30%;
+}
+footer {
+  clear: both;
+}
