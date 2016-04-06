@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles/reset.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
-    <script type="text/javascript" src="scripts/gen_validatorv4.js"></script>
 
   </head>
   <body>
@@ -22,7 +21,7 @@
     <section>
       <article>
         <p>Thanks for taking the time to view my website. If there is anything that I can help you with, or if you have any feedback for me, please use the form below to send me a message.</p>
-        <form action="https://formspree.io/your@email.com" method="POST">
+        <form action="https://formspree.io/james.harder@gmail.com" method="POST">
           <input type="text" name="name">
           <input type="email" name="_replyto">
           <input type="submit" value="Send">
@@ -32,17 +31,5 @@
     <footer>
       <p>&#169; 2016 james harder</p>
     </footer>
-<script type="text/javascript">
-// <![cdata[
-  var formValidator = new Validator("feedback");
-  formValidator.EnableOnPageErrorDisplay();
-  formValidator.EnableMsgsTogether();
-  formValidator.addValidation("name", "req", "Please enter your name.");
-  formValidator.addValidation("email", "req", "Please enter your email assress.");
-  formValidator.addValidation("email", "email", "Please provide a valid email adddress.");
-  formValidator.addValidation("message","maxlen=2048", "The message is too long.");
-// ]]
-</script>
-
   </body>
 </html>
