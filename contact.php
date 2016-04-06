@@ -13,29 +13,19 @@
   <body>
     <nav>
       <a href="resume.html">Resume</a>
-      <a href="portfolio.html">Portfolio</a>
+<!--      <a href="portfolio.html">Portfolio</a> -->
       <a href="projects.html">Example projects</a>
-      <a href="blog.html">Blog</a>
+<!--      <a href="blog.html">Blog</a> -->
       <a href="links.html">Links</a>
       <a href="contact.html">Contact Me</a>
     </nav>
     <section>
       <article>
         <p>Thanks for taking the time to view my website. If there is anything that I can help you with, or if you have any feedback for me, please use the form below to send me a message.</p>
-        <form id="feedback" method="post" name="feedback" action="./include/feedback.php">
-          <fieldset>
-            <legend>Feedback / Contact Me</legend>
-            <input type="hidden" value="1" name="submitted" id="submitted" />
-            <label for="name">Your full name*: </label><br />
-            <input type="text" name="name" id="name" maxlength="50" /><br />
-            <label for="email">Your email address*: </label><br />
-            <input type="text" name="email" id="email" maxlength="50" /><br />
-            <label for="phone">Your phone number: </label><br />
-            <input type="text" name="phone" id="phone" maxlength="15" /><br />
-            <label for="message">Your message:</label><br />
-            <textarea name="message" id="message" rows="10" cols="50"> </textarea>
-            <input type="submit" name="submit" value="submit" />
-          </fieldset>
+        <form action="https://formspree.io/your@email.com" method="POST">
+          <input type="text" name="name">
+          <input type="email" name="_replyto">
+          <input type="submit" value="Send">
         </form>
       </article>
     </section>
